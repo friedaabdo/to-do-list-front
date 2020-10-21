@@ -38,7 +38,7 @@ function App() {
           path="/"
           render={(rp) => <Display {...rp} categs={categs} />}
           />
-          <Route exact path={'/categories/:category'} /><Category catName={':category'}/>
+          <Route exact path='/categories/:category' render={(rp) => <Category url={url}/>}/>
         <Route
           exact
           path="/categories/create"

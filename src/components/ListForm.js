@@ -6,7 +6,7 @@ const [formData, setFormData] = React.useState(props.list)
 
     return(
         <form>
-            <input type="text" name="do" value={/>
+            <input type="text" name="do" value={}/>
             <input />
             <input />
         </form>
