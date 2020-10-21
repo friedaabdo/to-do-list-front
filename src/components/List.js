@@ -1,8 +1,10 @@
 import React from 'react'
 
 const List = () => {
-    return(
 
+
+    return(
+<p>list:</p>
     )
 }
 
